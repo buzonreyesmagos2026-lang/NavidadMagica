@@ -1,3 +1,4 @@
+
 export enum CharacterId {
   SANTA = 'SANTA',
   REYES = 'REYES'
@@ -25,4 +26,4 @@ export interface ChatMessage {
   timestamp: Date;
 }
 
-export type ViewState = 'LANDING' | 'CHAT';
+export type ViewState = 'LANDING' | 'REGISTER' | 'LOGIN' | 'SUCCESS' | 'DASHBOARD';

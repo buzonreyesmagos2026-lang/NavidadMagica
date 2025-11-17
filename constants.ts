@@ -1,4 +1,23 @@
+
 import { Character, CharacterId } from './types';
+
+// URL del Webhook de N8N para REGISTRO
+export const N8N_WEBHOOK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook/e72f6e96-19e5-41ba-bd99-b868cb839ad0';
+// URL de Respaldo (Test) para REGISTRO
+export const N8N_WEBHOOK_FALLBACK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook-test/e72f6e96-19e5-41ba-bd99-b868cb839ad0';
+
+// URL del Webhook de N8N para LOGIN
+export const N8N_LOGIN_WEBHOOK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook/2afd283f-c81c-42fa-9ceb-71b41535fe90'; 
+// URL de Respaldo (Test) para LOGIN
+export const N8N_LOGIN_WEBHOOK_FALLBACK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook-test/2afd283f-c81c-42fa-9ceb-71b41535fe90';
+
+// URL del Webhook de N8N para REENVIAR CORREO DE PROPUESTAS
+export const N8N_RESEND_EMAIL_WEBHOOK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook/1e505459-0286-4d2a-b92d-7de0e4a6ee60';
+
+// URL del Webhook de N8N para TRACKER (AVANCES)
+export const N8N_TRACKER_WEBHOOK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook/e72f6e96-19e5-41ba-bd99-b868cb839ad1';
+// URL de Respaldo para TRACKER
+export const N8N_TRACKER_WEBHOOK_FALLBACK_URL = 'https://n8n.srv1117067.hstgr.cloud/webhook-test/e72f6e96-19e5-41ba-bd99-b868cb839ad1';
 
 export const CHARACTERS: Record<CharacterId, Character> = {
   [CharacterId.SANTA]: {
